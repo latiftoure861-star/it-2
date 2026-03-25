@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lecteur audio</title>
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(240, 240, 240);
+            font-family: Arial, sans-serif;
+        }
+
+        .lecteur {
+            width: 350px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .lecteur img {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="lecteur">
+        <img src="./images/178588-itachi_faithful_night-itachi_uchiha-visual_arts-graphic_design-art-1366x768.jpg"
+            alt="Image du lecteur">
+        <audio controls>
+            <source src="./audio/Top 60 Sound Effect For Editing (2026).mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+</body>
+
+</html>
